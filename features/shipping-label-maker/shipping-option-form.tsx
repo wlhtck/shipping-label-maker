@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 
 interface ShippingOptionFormProps {
-  onSubmit: (data: { weight: number }) => void;
+  onSubmit: (data: { shippingOption: ShippingOptions }) => void;
   onBack: () => void;
   defaultValue: ShippingOptions,
 }
